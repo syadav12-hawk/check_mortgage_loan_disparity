@@ -1,0 +1,57 @@
+Column Names,Description
+Year,Year Loan Was Reported
+LoanCharacteristicsID,Unique Record ID (not actual loan number)
+Bank,Name of Federal Home Loan Bank District
+FIPSStateNumericCode,2 Digit FIPS State Code
+FIPSCountyCode,3 Digit FIPS County Code
+CoreBasedStatisticalAreaCode,The Property's Five Digit numeric CBSA; 99999 if state/county/tract combo is not in a CBSA or MSA
+CensusTractIdentifier,The property's Census Tract of Block Numbering Area (BNA)
+CensusTractMinorityRatioPercent,The percentage of the property's census tract population that is minority.
+CensusTractMedFamIncomeAmount,The property's census tract median family income.
+LocalAreaMedianIncomeAmount,The property's median income for the area based on the most recent decennial census.
+TotalMonthlyIncomeAmount,The total monthly qualifying income used for underwriting in whole dollars for all borrowers on the loan.
+HUDMedianIncomeAmount,Current median income for a family of four for the area as established by HUD
+LoanAcquisitionActualUPBAmt,The Amount of unpaid principal balance in whole dollars when acquired by the FHLBank.
+LTVRatioPercent,The loan-to-value ratio of the mortgage at time of origination
+NoteDate,Year the mortgage was originated.
+LoanAcquistionDate,Year the mortgage was acquired.
+LoanPurposeType,"Purpose of Loan: 1 = Purchase, 2 = No-Cash Out Refinancing, 3 = Second Mortgage, 4 = New Construction, 5 = Rehabilitation or Home Improvement, 6 = Cash-out Refinancing, 7 = Other"
+ProductCategoryName,"Product type of Mortgage: 01=Fixed Rate, 02=ARM, 03=No Longer in Use, 04=GPM/GEM, 05=Reverse Annuity Mortgage, 06=Other, 07-98=Reserved for future use"
+MortgageType,"Type of Mortgage and whether the mortgage is guaranteed: 0=Conventional, 1=FHA, 2=VA, 3=USDA Rural Housing-FSA Guaranteed, 4=HECMs, 5=Title1- FHA"
+ScheduledTotalPaymentCount,Term of the Mortgage in Months
+LoanAmortizationMaxTermMonths,"For Amortizing Mortgages, term of amortization in months; 998 if non-amortizing loan"
+MortgageLoanSellerInstType,"Type of Institution from which the FHLBank acquired the mortgage. 01=Insured depository institution, 02=Housing Associate, 03=Insurance Company, 04=NonFederally Insured CU, 05=Non-Depository CDFI, 06=Other FHLBank, 09=Other"
+BorrowerCount,Number of Borrowers
+BorrowerFirstTimeHomebuyer,Numeric code indicating whether borrower
+Borrower1Race1Type,"Numeric code indicating the race of the Borrower. 1=American Indian or Alaska Native, 2=Asian, 3=Black or African American, 4=Native Hawaiian or other Pacific Islander, 5=White, 6=Information not provided by Borrower, 7=Not Applicable (First or primary borrower is an institution, corporation or partnership)"
+Borrower2Race1Type,"Numeric code indicating the race of the Co-Borrower. 1=American Indian or Alaska Native, 2=Asian, 3=Black or African American, 4=Native Hawaiian or other Pacific Islander, 5=White, 6=Information not provided by borrower, 7=Not Applicable (First or primary borrower is an institution, corporation or partnership), 8=No Co-Borrower"
+Borrower1GenderType,"Numeric code indicating the sex of the first or primary borrower. 1=Male, 2=Female, 3=Information not provided by borrower, 4=Not Applicable (First or primary borrower is an institution, corporation or partnership), 6=Borrower selected both male and female"
+Borrower2GenderType,"Numeric code indicating the sex of the co-borrower. 1=Male, 2=Female, 3=Information not provided by borrower, 4=No Co-Borrower, 5=Not Applicable (First or primary borrower is an institution, corporation or partnership), 6=Borrower selected both male and female"
+Borrower1AgeAtApplicationYears,"Age in years of the borrower at time application submitted; 999=Age not provided, 998=Not Applicable (Borrower might be a legal entity like an LLC)"
+Borrower2AgeAtApplicationYears,"Age in years of the borrower at time application submitted; 999=Age not provided, 998=No CoBorrower"
+PropertyUsageType,"Numeric code indicating whether property is owner occupied, second home or a rental investment property. 1=Principal Residence, 2=Second Home, 3=Investment Property"
+PropertyUnitCount,Total number of units in the property
+NoteRatePercent,Interest rate on the mortgage at acquisition
+NoteAmount,Mortgage balance at origination
+HousingExpenseRatioPercent,Ratio of mortgage principal and interest and housing expenses to total borrower income.
+TotalDebtExpenseRatioPercent,Ratio of all debt payments to total borrower income.
+Borrower1CreditScoreValue,"Credit Scores are separated into a range: 1=< 660, 3=660 < 700, 4=700 < 760, 5=760 or greater, 9 = Missing or Not Applicable"
+Borrower2CreditScoreValue,"Credit Scores are separated into a range: 1=< 660, 3=660 < 700, 4=700 < 760, 5=760 or greater, 9 = Missing, Not Applicable or No-CoBorrower"
+PMICoveragePercent,Percent of mortgage balance at origination covered by loan level PMI
+EmploymentBorrowerSelfEmployed," Numeric code indicating whether the borrower is selfemployed. 0=No, 1=Yes"
+PropertyType,PT01=Single family detached; PT02=Deminimus PUD; PT03=Single family attached; PT04=Two family; PT05=Townhouse; PT06=Low-rise condo; PT07=PUD; PT08=Duplex; PT09=Three family; PT10=Four family; PT11=Hi-res condo; PT12=Manufactured home not chattel; PT13=Manufactured home chattel; PT14=Five plus multifamily
+IndexSourceType,01=11th District cost of funds; 02=Other cost of funds; 03=LIBOR; 04=1 year constant Treasury Rate; 99=Not an ARM
+MarginRatePercent,Margin added to the index used for the calculation of the interest on an ARM. 9999=Not Applicable
+PrepaymentPenaltyExpirationDate,Date when prepayment penalty ends; report 9999-12- 31 if not applicable
+Borrower1EthnicityType,"1=Hispanic or Latino; 2=Not Hispanic or Latino; 3=Information not provided; 4=Not applicable (First or primary borrower is an institution, corporation or partnership)"
+Borrower1Race2Type,"1=American Indian or Alaska Native; 2=Asian; 3=Black or African American; 4=Native Hawaiian or other Pacific Islander; 5=White; 6=Information not provided; 7=Not Applicable (borrower is an institution, corporation or partnership)"
+Borrower1Race3Type,"1=American Indian or Alaska Native; 2=Asian; 3=Black or African American; 4=Native Hawaiian or other Pacific Islander; 5=White; 6=Information not provided; 7=Not Applicable (borrower is an institution, corporation or partnership)"
+Borrower1Race4Type,"1=American Indian or Alaska Native; 2=Asian; 3=Black or African American; 4=Native Hawaiian or other Pacific Islander; 5=White; 6=Information not provided; 7=Not Applicable (borrower is an institution, corporation or partnership)"
+Borrower1Race5Type,"1=American Indian or Alaska Native; 2=Asian; 3=Black or African American; 4=Native Hawaiian or other Pacific Islander; 5=White; 6=Information not provided; 7=Not Applicable (borrower is an institution, corporation or partnership)"
+Borrower2EthnicityType,"1=Hispanic or Latino; 2=Not Hispanic or Latino; 3=Information not provided; 4=Not applicable (First or primary borrower is an institution, corporation or partnership); 5=No Co-Borrower"
+Borrower2Race2Type,"1=American Indian or Alaska Native; 2=Asian; 3=Black or African American; 4=Native Hawaiian or other Pacific Islander; 5=White; 6=Information not provided; 7=Not Applicable (borrower is an institution, corporation or partnership); 8=No Co-Borrower"
+Borrower2Race3Type,"1=American Indian or Alaska Native; 2=Asian; 3=Black or African American; 4=Native Hawaiian or other Pacific Islander; 5=White; 6=Information not provided; 7=Not Applicable (borrower is an institution, corporation or partnership); 8=No Co-Borrower"
+Borrower2Race4Type,"1=American Indian or Alaska Native; 2=Asian; 3=Black or African American; 4=Native Hawaiian or other Pacific Islander; 5=White; 6=Information not provided; 7=Not Applicable (borrower is an institution, corporation or partnership); 8=No Co-Borrower"
+Borrower2Race5Type,"1=American Indian or Alaska Native; 2=Asian; 3=Black or African American; 4=Native Hawaiian or other Pacific Islander; 5=White; 6=Information not provided; 7=Not Applicable (borrower is an institution, corporation or partnership); 8=No Co-Borrower"
+HOEPALoanStatusType,1=HOEPA: High-Cost Mortgage; 2=HOEPA: Not a HighCost Mortgage; 3=Not subject to HOEPA
+LienPriorityType,1=Secured by first lien; 2=Secured by a subordinate lien; 3=Not secured by a lien; 4=Not Applicable
