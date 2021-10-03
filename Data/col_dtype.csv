@@ -3,9 +3,9 @@ Year,drop
 LoanCharacteristicsID,drop
 Bank,cat
 FIPSStateNumericCode,no_cn
-FIPSCountyCode,no_cn
-CoreBasedStatisticalAreaCode,no_cn
-CensusTractIdentifier,no_cn
+FIPSCountyCode,drop
+CoreBasedStatisticalAreaCode,drop
+CensusTractIdentifier,drop
 CensusTractMinorityRatioPercent,num
 CensusTractMedFamIncomeAmount,drop
 LocalAreaMedianIncomeAmount,num
@@ -14,7 +14,7 @@ HUDMedianIncomeAmount,num
 LoanAcquisitionActualUPBAmt,num
 LTVRatioPercent,num
 NoteDate,cat
-LoanAcquistionDate,cat
+LoanAcquistionDate,drop
 LoanPurposeType,cat
 ProductCategoryName,cat
 MortgageType,cat
