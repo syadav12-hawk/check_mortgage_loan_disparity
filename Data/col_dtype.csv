@@ -2,7 +2,7 @@ Column_Name,Type
 Year,drop
 LoanCharacteristicsID,drop
 Bank,cat
-FIPSStateNumericCode,no_cn
+FIPSStateNumericCode,drop
 FIPSCountyCode,drop
 CoreBasedStatisticalAreaCode,drop
 CensusTractIdentifier,drop
@@ -13,7 +13,7 @@ TotalMonthlyIncomeAmount,num
 HUDMedianIncomeAmount,num
 LoanAcquisitionActualUPBAmt,num
 LTVRatioPercent,num
-NoteDate,cat
+NoteDate,drop
 LoanAcquistionDate,drop
 LoanPurposeType,cat
 ProductCategoryName,cat
@@ -25,8 +25,8 @@ BorrowerCount,cat
 BorrowerFirstTimeHomebuyer,cat
 Borrower1Race1Type,cat
 Borrower2Race1Type,drop
-Borrower1GenderType,cat
-Borrower2GenderType,cat
+Borrower1GenderType,drop
+Borrower2GenderType,drop
 Borrower1AgeAtApplicationYears,num
 Borrower2AgeAtApplicationYears,num
 PropertyUsageType,cat
